@@ -104,6 +104,7 @@ function App() {
         <h3>Number of Dishes Displayed: {recipes.length}</h3>
       )}       */}
       <h1>Recipe Finder</h1>
+      <h5>Search for several recipes from the Edamam API</h5>
       <div>
         <label className="big" htmlFor="searchTerm">Search: </label>
         
@@ -168,6 +169,7 @@ function App() {
         {recipes?.length > 0 && (
           <h2>Recipes</h2>
         )}
+        
 
         {recipes?.length == 0 && (searchTerm?.length>0 || diet?.length>0 ||cuisine?.length>0) && (
           <h3>No Results Found. Please adjust filters.</h3>
