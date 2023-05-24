@@ -51,15 +51,3 @@ const FoodInfo = ({ id }) => {
 
 
 export default FoodInfo;
-{/* <option value="caribbean">Caribbean</option>
-          <option value="central europe">Central Europe</option>
-          <option value="chinese">Chinese</option>
-          <option value="eastern europe">Eastern Europe</option>
-          <option value="french">French</option>
-          <option value="indian">Indian</option>
-          <option value="italian">Italian</option>
-          <option value="japanese">Japanese</option> */}
-
-          // <option value="american">American</option>
-          // <option value="asian">Asian</option>
-          // <option value="british">British</option>

@@ -47,3 +47,71 @@
   border-radius: 5px;
   padding: 1rem;
 }
+
+.home-link{
+  padding:10px;
+  background-color: rgb(0, 191, 127);
+  border-radius:10px;
+  
+}
+.text{
+  color:black;
+  font-size:20px;
+}
+
+.recipe-background{
+  padding: 10px;
+  border-radius:10px;
+  background-color:antiquewhite;
+  margin-bottom: 15px;
+  border: 3px solid rgb(248, 159, 127);
+}
+
+.list{
+  text-align: left;
+  margin-left:20px;
+  
+}
+
+.center{
+  display: flex;
+  justify-content:center;
+}
+
+.healthLabels{
+  display: inline;
+  text-align: left;
+  margin-right:20px;
+}
+
+.bigger{
+  padding: 10px;
+  width: 200px;
+  height:20px;
+  
+}
+
+.big{
+  font-size: 20px;
+  margin-top:10px;
+  height:30px;
+  width: 200px;
+}
+
+.medium{
+  font-size: 16px;
+  margin-top:10px;
+  height:30px;
+  width: 200px;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.clear{
+  border: 1px solid black;
+  margin-top:10px;
+}
