@@ -104,11 +104,11 @@ function App() {
         <h3>Number of Dishes Displayed: {recipes.length}</h3>
       )}       */}
       <h1>Recipe Finder</h1>
-      <h5>Search for several recipes from the Edamam API</h5>
+      <h5>Search for several foods to get recipes from the Edamam API!</h5>
       <div>
         <label className="big" htmlFor="searchTerm">Search: </label>
         
-        <input className="bigger" type="text" id="searchTerm" value={searchTerm} onChange={handleSearch} placeholder="Enter recipe name..." />
+        <input className="bigger" type="text" id="searchTerm" value={searchTerm} onChange={handleSearch} placeholder="Enter food name..." />
       </div>
       <div>
         <label className="big" htmlFor="diet">Diet: </label>
