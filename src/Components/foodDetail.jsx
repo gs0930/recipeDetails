@@ -27,21 +27,25 @@ function DetailView() {
 
   return (
     <div>
-      <h1>{recipe.label}</h1>
+      <h2>{recipe.label}</h2>
       <img src={recipe.image} alt={recipe.label} />
       <p></p>
-      <h3><a href={recipe.url} target="_blank" rel="noreferrer">Link to Recipe</a></h3>
-
+      <button className="recipe-button">
+        <a href={recipe.url} target="_blank" rel="noreferrer">
+          Link to Recipe
+        </a>
+      </button>
+      <div className="ingred-background">
       <h3>Ingredients</h3>
-      <div className = "center">
-      <ul className="list">
-        {recipe.ingredientLines.map((ingredient) => (
-          <li key={ingredient}>{ingredient}</li>
-        ))}
-      </ul>
+     
+        <ul className="list">
+          {recipe.ingredientLines.map((ingredient) => (
+            <li key={ingredient}>{ingredient}</li>
+          ))}
+        </ul>
       </div>
 
-     
+
       <h3>Health Labels</h3>
       <ul>
         {recipe.healthLabels.map((healthLabel) => (

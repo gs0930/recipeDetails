@@ -73,6 +73,19 @@
   
 }
 
+.ingred-background{
+  padding: 10px;
+  border-radius:10px;
+  background-color:antiquewhite;
+  margin-bottom: 15px;
+  border: 3px solid rgb(248, 159, 127);
+  /* display: flex; */
+  justify-content:center;
+  width:600px;
+  margin: 0 auto;
+  margin-top:20px;
+ 
+}
 .center{
   display: flex;
   justify-content:center;
@@ -114,4 +127,28 @@
 .clear{
   border: 1px solid black;
   margin-top:10px;
+}
+
+.recipe-button {
+  background-color: #94dcf8;
+  border: solid 2px rgb(90, 170, 174);
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-size:20px;
+}
+
+.recipe-button:hover {
+  background-color: #6fbafb;
+  color: #000;
+  text-decoration: none;
+}
+
+.recipe-button a {
+  text-decoration: none;
+  color: #000;
+}
+.recipe-button a:hover {
+  color: #13013c;
+  text-decoration: none;
 }

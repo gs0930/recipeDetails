@@ -104,7 +104,7 @@ function App() {
         <h3>Number of Dishes Displayed: {recipes.length}</h3>
       )}       */}
       <h1>Recipe Finder</h1>
-      <h5>Search for several foods to get recipes from the Edamam API!</h5>
+      <h5>Search for foods to get recipes from the Edamam API! 😋 </h5>
       <div>
         <label className="big" htmlFor="searchTerm">Search: </label>
         
@@ -144,7 +144,7 @@ function App() {
 
         </select>
       </div>
-      <button className="clear" onClick={handleClearResults}>Clear Results</button>
+      <button className="clear" onClick={handleClearResults}>Clear Selections</button>
 
       <div>
         {recipes?.length > 0 && (
@@ -187,6 +187,7 @@ function App() {
               // style=Unspecified
               to={`/foodDetails/${recipe.recipe.label}`}
               key={recipe.recipe.label}
+              target="_blank" //open in new tab
             >
               <h3>See Recipe</h3>
 
