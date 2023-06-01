@@ -152,3 +152,12 @@
   color: #13013c;
   text-decoration: none;
 }
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px; /* Adjust the height as needed */
+  background-color: none;
+  
+}

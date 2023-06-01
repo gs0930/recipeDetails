@@ -145,6 +145,10 @@ function App() {
       </div>
       <button className="clear" onClick={handleClearResults}>Clear Selections</button>
 
+      {recipes?.length == 0 && (
+          <div className="bottom"><h5>Emily Suh</h5></div>
+        )}
+
       <div>
         {recipes?.length > 0 && (
           <h4>Total Time (mins) For Each Recipe: </h4>
@@ -206,6 +210,10 @@ function App() {
 
         ))}
       </div>
+
+      {recipes?.length > 0 && (
+          <h4>© 2023 Emily Suh</h4>
+        )}
     </div>
   );
 
