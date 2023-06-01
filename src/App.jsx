@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 
-
 function App() {
   const [recipes, setRecipes] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
@@ -187,7 +186,7 @@ function App() {
               // style=Unspecified
               to={`/foodDetails/${recipe.recipe.label}`}
               key={recipe.recipe.label}
-              target="_blank" //open in new tab
+              
             >
               <h3>See Recipe</h3>
 
